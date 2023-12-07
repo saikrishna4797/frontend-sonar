@@ -16,9 +16,6 @@ RUN npm install -g @angular/cli@15.0.0
 # Install app dependencies
 RUN npm install
 
-#install sonar dependency
-RUN npm install --save-dev sonar-scanner
-
 # Expose the port your app runs on
 EXPOSE 4200
 
